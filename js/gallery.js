@@ -21,15 +21,14 @@ window.onclick = function(e) {
     }
 };
 
-$('.single-item').slick({
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    fade: true,
-    cssEase: 'linear'
+$('.grid').masonry();
+
+$(document).ready(function() {
+
+    $("a.grouped_elements").fancybox({
+        'overlayShow' : true,
+        'overlayColor' : '#000000',
+        'overlayOpacity': 0.9,
+    });
+
 });
-
-
-
-
-
