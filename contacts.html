@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Особняки на набережной</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+</head>
+<body class="drawer drawer--left">
+
+    <div id="load_screen">
+        <div class="preloader-wheel"></div>
+    </div>
+
+    <header>
+        <section class="mhi">
+
+            <nav class="upper-menu">
+                <ul class="wrapper">
+                    <li><a href="index.html">О проекте</a></li>
+                    <li class="menu-item-houses"><a href="#" id="dropbtn" onclick="showMenu()">Особняки</a>
+                        <ul class="sub-menu" id="sub-menu">
+                            <li><a href="kazantsev.html">Особняк Казанцев</a></li>
+                            <li><a href="ryazanov.html">Особняк Рязанов</a></li>
+                            <li><a href="balandin.html">Особняк Баланидин</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="place.html">Расположение</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+
+        </section>
+    </header>
+
+    <main class="wrapper">
+
+        <div class="separator mhi">
+            <div class="floral up"></div>
+        </div>
+
+        <h2 class="mlo mtop">Контакты</h2>
+
+        <section class="mhi">
+            <div class="contact-info">Офис продаж:</div>
+            <div class="contact-info">UDevelopment</div>
+            <div class="contact-info">г. Екатеринбург, ул.Шейнкмана, д.119, оф.6</div>
+            <div class="contact-info">+7 343 286-26-26</div>
+            <div class="contact-info mhi">info@udevelopment.ru</div>
+        </section>
+
+
+        <h2 class="mhi mtop">Оставьте заявку на просмотр</h2>
+
+        <form action= "#" method= "POST" id="form">
+
+            <div class="">
+                <label for="name">Ваше Имя</label>
+                <input id="name" type="text" name="name" placeholder="Ваше имя" required>
+            </div>
+
+            <div class="">
+                <label for="tel">Ваш телефон</label>
+                <input id="tel" type="tel" name="tel" placeholder="+7(xxx)xx-xx-xxx" required>
+            </div>
+
+            <!--<div class="">-->
+                <!--<label for="name">Ваш e-mail</label>-->
+                <!--<input id="email" type="email" name="email" placeholder="yourmail@domain.com">-->
+            <!--</div>-->
+
+            <div class="">
+                <label for="comments">Ваш комментарий</label>
+                <textarea id="comments" rows="7"></textarea>
+            </div>
+
+            <div class="">
+                <button type="submit" class="button gradient">Отправить заявку</button>
+            </div>
+
+            <div class="mhi">
+                <input type="checkbox" id="checkbox" class="checkbox" required>
+                <label for="checkbox" class="checkbox">Я ознакомился и соглашаюсь с политикой конфиденциальности</label>
+            </div>
+
+        </form>
+    </main>
+
+
+    <footer class="clearfix">
+        <div class="wrapper">
+            <section class="pull-left w50">
+                <a href="mailto:info@udevelopment.ru" class="email">
+                    info@udevelopment.ru
+                </a><br>
+                <a href="tel: +7(343)286-26-26" class="footer-tel">
+                    Отдел продаж: +7 (343) 268-26-26
+                </a>
+            </section>
+
+            <section class="pull-right w50">
+                <a href="http://udevelopment.ru/" target="_blank" class="to-udev">
+                    <img src="img/udev_logo.svg" alt="">
+                </a>
+            </section>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
