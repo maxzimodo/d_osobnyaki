@@ -132,16 +132,10 @@ header .main-pic {
 header .main-pic.ryaz {
     background: url(../img/main_img_ryaz.jpg) no-repeat 50% 50%;
     background-size: cover;
-    position: relative;
-    height: 100vh;
-    width: 100%;
 }
 header .main-pic.bal {
     background: url(../img/main_img_bal.jpg) no-repeat 50% 50%;
     background-size: cover;
-    position: relative;
-    height: 100vh;
-    width: 100%;
 }
 header .upper-menu, header .heading, header .upper-menu .sub-menu  {
     background-color: rgba(56,46,44, .9);
